@@ -10,5 +10,4 @@ arr = [[1,2,3],
 # print("Max element of 2D array:", max_ele)
 # print("Min element of 2D array:", min_ele)
 
-for i in arr:
-    print()
+print("Min:", min(min(row) for row in arr), "Max:", max(max(row) for row in arr))
